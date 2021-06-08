@@ -1,0 +1,18 @@
+html, body {
+	height: 100%;
+	position: relative;
+}
+
+.site {
+	min-height: 100vh;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	a {
+		transition: 0.2s;
+	}	
+}

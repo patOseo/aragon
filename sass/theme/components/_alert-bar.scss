@@ -1,0 +1,18 @@
+.alert-primary {
+	margin-bottom: 0;
+	padding: 12px 2rem;
+	border: 0;
+	border-radius: 0;
+	background: $primary;
+	color: $white;
+	text-align: center;
+
+	a {
+		color: $secondary;
+	}
+
+	p {
+		margin-bottom: 0;
+		text-align: center;
+	}
+}

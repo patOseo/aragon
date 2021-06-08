@@ -1,0 +1,21 @@
+.btn {
+	border-radius: 2rem;
+	font-family: $headings-font-family;
+	text-transform: uppercase;
+}
+
+.wp-block-button {
+	a {
+		border: 0 !important;
+		border-radius: 2rem !important;
+		font-family: $headings-font-family !important;
+		text-transform: uppercase !important;
+		background: $primary !important;
+		color: $white !important;
+
+		&:hover {
+			text-decoration: none !important;
+			background: darken($primary, 10%) !important;
+		}
+	}
+}
