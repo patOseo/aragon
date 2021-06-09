@@ -31,6 +31,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<h4>Aragon Prosthodontics</h4>
 						<p><?php the_field('address', 'option'); ?></p>
 							Call: <a href="tel:<?php the_field('phone', 'option'); ?>"><?php the_field('phone', 'option'); ?></a><br>
+							<?php if(get_field('secondary_phone', 'option')): ?>
+							Call: <a href="tel:<?php the_field('secondary_phone', 'option'); ?>"><?php the_field('secondary_phone', 'option'); ?></a><br>
+							<?php endif; ?>
 							Fax: <?php the_field('fax', 'option'); ?><br>
 							Email: <a href="mailto:<?php the_field('email', 'option'); ?>"><?php the_field('email', 'option'); ?></a>
 						</p>
