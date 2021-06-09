@@ -57,7 +57,7 @@ $panel2 = get_field('panel_2');
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: false; delay: 100;">
-				<a href="#" class="btn btn-md btn-primary">Meet The Rest of the Staff</a>
+				<a href="/our-staff/" class="btn btn-md btn-primary">Meet The Rest of the Staff</a>
 			</div>
 		</div>
 	</div>
