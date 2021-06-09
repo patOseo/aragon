@@ -88,9 +88,9 @@ $panel2 = get_field('panel_2');
 </section>
 
 <?php if(have_rows('affiliations', 'option')): ?>
-<section class="section-sponsors">
+<section class="section-sponsors" uk-scrollspy="target: .affiliations; cls: uk-animation-slide-bottom-medium; repeat: false; delay: 100;">
 	<div class="container-fluid">
-		<div class="affiliations" uk-scrollspy="target: .affiliation; cls: uk-animation-slide-bottom-medium; repeat: false; delay: 100;">
+		<div class="affiliations">
 			<?php while(have_rows('affiliations', 'option')): the_row(); ?>
 				<div class="affiliation">
 					<?php $logo = get_sub_field('logo'); ?>

@@ -33,9 +33,10 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%,-50%);
+			max-width: 300px;
 		}
 
-		max-width: 300px;
+		max-width: 200px;
 	}
 }
 
@@ -81,5 +82,13 @@
 
 	@include media-breakpoint-down(md) {
 		display: block;
+	}
+
+	@include media-breakpoint-down(sm) {
+
+		a {
+			display: block;
+			font-size: .85rem;
+		}
 	}
 }

@@ -11519,14 +11519,15 @@ body {
       .navbar.navbar-dark .contact-info {
         display: none; } }
   .navbar.navbar-dark .main-logo {
-    max-width: 300px; }
+    max-width: 200px; }
     @media (min-width: 768px) {
       .navbar.navbar-dark .main-logo {
         position: absolute;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%); } }
+                transform: translate(-50%, -50%);
+        max-width: 300px; } }
 
 .dropdown-navbar {
   padding: 0 !important; }
@@ -11557,6 +11558,10 @@ body {
   @media (max-width: 991.98px) {
     .mobile-bar {
       display: block; } }
+  @media (max-width: 767.98px) {
+    .mobile-bar a {
+      display: block;
+      font-size: .85rem; } }
 
 footer.site-footer {
   position: relative;
